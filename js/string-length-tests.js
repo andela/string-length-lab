@@ -17,7 +17,7 @@
 
     describe("Case for an array of strings", function() {
 
-      it("should return [4, 5] for ['Adam', 'Frankel']", function() {
+      it("should return [4, 7] for ['Adam', 'Frankel']", function() {
         expect(stringLength(['Adam', 'Frankel'])).toEqual([4, 7]);
       });
 
